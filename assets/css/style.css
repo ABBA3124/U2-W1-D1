@@ -277,6 +277,8 @@ section h2 {
   .newsletter2 {
     display: inline-block;
     vertical-align: top;
+    margin: 50px auto;
+    width: 560px;
   }
   .diviframe {
   }
