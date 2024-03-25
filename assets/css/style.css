@@ -295,6 +295,7 @@ section h2 {
     width: 33%;
     height: 140px;
     border: 1px solid rgba(110, 110, 110, 0.397);
+    margin-right: -5px;
   }
   .tabella {
     margin: 50px auto;
