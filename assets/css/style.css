@@ -276,9 +276,26 @@ section h2 {
   .diviframe,
   .newsletter2 {
     display: inline-block;
+    vertical-align: top;
   }
   .diviframe {
   }
   .newsletter2 {
+    border-radius: 15px;
+  }
+  aside {
+    margin: 1%;
+  }
+
+  aside div {
+    display: inline-block;
+    vertical-align: baseline;
+    width: 33%;
+    height: 140px;
+    border: 1px solid rgba(110, 110, 110, 0.397);
+  }
+  .tabella {
+    margin: 50px auto;
+    width: 800px;
   }
 }
