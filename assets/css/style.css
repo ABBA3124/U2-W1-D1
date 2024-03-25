@@ -214,11 +214,15 @@ footer {
 footer a {
   color: fuchsia;
 }
+section h2 {
+  text-transform: none;
+  font-size: 35px;
+}
 /* inzio medio */
 @media (min-width: 577px) {
   /* stili per versione medie */
   h1 {
-    font-size: 4.6rem;
+    font-size: 5.6rem;
     line-height: 1.15em;
   }
   p,
@@ -228,13 +232,45 @@ footer a {
   dl,
   blockquote {
     margin-bottom: 1.2em;
-    font-size: 15px;
+    font-size: 19px;
   }
   .tabella {
     margin: 50px auto;
+  }
+  header div p,
+  nav ul li {
+    font-size: 18px;
+  }
+  nav ul {
+    word-spacing: 10px;
+  }
+  nav ul li {
+    word-spacing: 0px;
+  }
+  article h2 {
+    font-weight: bold;
+    font-size: 22px;
   }
 }
 
 @media (min-width: 768px) {
   /* stili per versione desktop */
+  header {
+    display: inline-block;
+    width: 100%;
+    padding: 0em 0em;
+  }
+  header div,
+  header div p,
+  header nav {
+    display: inline-block;
+    vertical-align: top;
+    margin-top: 3rem;
+  }
+  header nav {
+    margin-top: 6rem;
+  }
+  header div {
+    margin-right: 300px;
+  }
 }
