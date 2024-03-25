@@ -273,4 +273,12 @@ section h2 {
   header div {
     margin-right: 300px;
   }
+  .diviframe,
+  .newsletter2 {
+    display: inline-block;
+  }
+  .diviframe {
+  }
+  .newsletter2 {
+  }
 }
