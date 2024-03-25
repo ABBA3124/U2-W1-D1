@@ -279,11 +279,26 @@ section h2 {
     vertical-align: top;
     margin: 50px auto;
     width: 560px;
+    margin-right: -5px;
   }
-  .diviframe {
+  .diviframe iframe {
+    height: 276px;
   }
   .newsletter2 {
     border-radius: 15px;
+    height: 276px;
+  }
+  .newsletter2 p {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .newsletter2 form {
+    font-size: 20px;
+    margin-top: 50px;
+  }
+  .newsletter2 form input {
+    width: 430px;
+    height: 50px;
   }
   aside {
     margin: 1%;
